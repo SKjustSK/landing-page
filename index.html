@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="navigation-bar">
         <div class="left-links">Header Logo</div>
         <div class="right-links">
@@ -18,19 +20,35 @@
     </div>
 
     <div class="introduction">
-        <div class="title">This website is awesome</div>
-        <div class="para">This website has some subtext that goes under here under the main title. It's a smaller font and the color is lower contrast</div>
-        <button class = "sign-up">Sign Up</button>
-        <img src="#" class = "placeholder-image" alt = "placeholder-1"> 
+        <div class="text">
+            <div class="title">This website is awesome</div>
+            <div class="para">This website has some subtext that goes under here under the main title. It's a smaller font and the color is lower contrast</div>
+            <button class = "sign-up">Sign Up</button>
+        </div>
+        <div class = "placeholder"><img src="./images/placeholder-1.png" class = "image" alt = "placeholder-1"></div>
     </div>
 
     <div class="body">
-        <div class="title">Some random information.</div>
+        <div class="title-container">
+            <div class="title">Some random information.</div>
+        </div>
         <div class="illustrations">
-            <img src="#"><div>this is ome subtext under an illustration or image.</div>
-            <img src="#"><div>this is ome subtext under an illustration or image.</div>
-            <img src="#"><div>this is ome subtext under an illustration or image.</div>
-            <img src="#"><div>this is ome subtext under an illustration or image.</div>
+            <div class="item">
+                <img src="#" class ="image">
+                <div class="text">this is one subtext under an illustration or image.</div>
+            </div>
+            <div class="item">
+                <img src="#" class ="image">
+                <div class="text">this is one subtext under an illustration or image.</div>
+            </div>
+            <div class="item">
+                <img src="#" class ="image">
+                <div class="text">this is one subtext under an illustration or image.</div>
+            </div>
+            <div class="item">
+                <img src="#" class ="image">
+                <div class="text">this is one subtext under an illustration or image.</div>
+            </div>
         </div>
     </div>
 
@@ -40,14 +58,19 @@
     </div>
 
     <div class="sign-up-again">
-        <div>Call to action! It's time!</div>
-        <div>Sign up for our product by clicking that button right over there!</div>
-        <button class="sign-up">Sign up</button>
+        <div class="container">
+            <div class="left">
+                <div class="action">Call to action! It's time!</div>
+                <div class="body-text">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            
+            <button class="sign-up">Sign up</button>
+        </div>
     </div>
 
     <div class="footer">
         <div class = "copyright">Copyright: The Odin Project 2021</div>
     </div>
-    
+
 </body>
 </html>
